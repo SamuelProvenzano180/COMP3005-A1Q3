@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- The button that will trigger the getAllStudents -->
+    <button type="module" onclick="getAllStudents()">Get All Students (Refresh Table)</button>
+    <br>
+    <br>
+    <br>
+    <!-- The button that will trigger the addStudent -->
+    <button type="module" onclick="addStudent()">Add Student</button>
+    <!-- The inputs from the user that are used as arguments for the function of addStudent -->
+    <input id="addStudentFirstName" placeholder="first_name" type="text">
+    <input id="addStudentLastName" placeholder="last_name" type="text">
+    <input id="addStudentEmail" placeholder="email" type="text">
+    <input id="addStudentEnrollmentDate" placeholder="enrollment_date (YYYY-MM-DD)" type="text">
+    <br>
+    <br>
+    <!-- The button that will trigger the updateStudentEmail -->
+    <button type="module" onclick="updateStudentEmail()">Update Student Email</button>
+    <!-- The inputs from the user that are used as arguments for the function of updateStudentEmail -->
+    <input id="updateStudentEmailStudentId" placeholder="student_id" type="text">
+    <input id="updateStudentEmailNewEmail" placeholder="new_email" type="text">
+    <br>
+    <br>
+    <!-- The button that will trigger the deleteStudent -->
+    <button type="module" onclick="deleteStudent()">Delete Student</button>
+    <!-- The input from the user that is used as the argument for the function of deleteStudent -->
+    <input id="deleteStudentStudentId" placeholder="student_id" type="text">
+    <br>
+
+
+    <p id="table_text"></p>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
