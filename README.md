@@ -1,4 +1,4 @@
-# COMP3005 - Samuel Provenzano (101354766) - A3Q1
+# COMP3005 - Samuel Provenzano - A3Q1
 
 ## TO COMPILE AND RUN:
 1. Open a new terminal.
